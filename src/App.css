@@ -1,0 +1,75 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App__cash,
+.App__customers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 50px 0;
+}
+
+
+.App__cash-screen {
+  margin: 20px auto;
+  padding: 5px;
+  width: 300px;
+
+  font-size: 44px;
+
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+.App__btn {
+  margin: 4px;
+  padding: 10px 20px;
+  width: 300px;
+
+  font-size: 22px;
+
+  background-color: rgb(167, 241, 133);
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 8px;
+
+  transition: background-color 0.2s linear;
+}
+
+.App__btn:hover {
+  background-color: rgb(98, 223, 41);
+}
+
+.App__customers-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 20px;
+  padding: 0;
+
+  font-size: 22px;
+  list-style: none;
+}
+
+.App__customers-item {
+  margin: 2px auto;
+  padding: 10px;
+  width: 300px;
+
+  text-align: center;
+
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+.App__customers-item--no-items {
+  margin-top: 22px;
+
+  font-size: 22px;
+}
